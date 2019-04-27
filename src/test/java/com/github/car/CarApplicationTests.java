@@ -37,6 +37,8 @@ public class CarApplicationTests {
 		Assert.assertEquals("2",jdbcTemplate1.queryForObject("select count(1) from user",String.class));
 		Assert.assertEquals("1",jdbcTemplate2.queryForObject("select count(1) from user",String.class));
 	}
-
+	/**
+	 * 修改1
+	 */
 }
 
